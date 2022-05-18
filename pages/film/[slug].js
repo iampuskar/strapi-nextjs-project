@@ -105,7 +105,7 @@ const Film = ({ film, jwt, plot, error }) => {
               </span>
         <ul>
               {film.attributes.reviews.data.length === 0 && (
-                <span>No reviews yet</span>
+                <span>No reviews yet <p className='text-xs'>(login to add Reviews)</p></span>
               )}
               {film.attributes.reviews &&
                 film.attributes.reviews.data.map((review) => {

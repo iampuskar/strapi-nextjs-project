@@ -17,9 +17,9 @@ const Layout = ({ user, loading = false, children }) => (
           items-center
           bg-slate-100
           mx-auto
-          w-2/4
+          w-full
+          md:w-2/4
           rounded-lg
-          my-16
           p-16
           shadow-lg
         "
